@@ -1,0 +1,14 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+<div class="col-md-12">
+    <h1>This is the video view.</h1>
+    <video id="videojs" class="video-js vjs-default-skin"
+           controls preload="auto" width="852" height="480"
+           poster="http://video-js.zencoder.com/oceans-clip.png"
+           data-setup='{"plugins":{"addThis":{"website_url": "http://www.google.com","reddit":false,"delicious":false}}}'
+           >
+        <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+        <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+        <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+    </video>
+</div>
